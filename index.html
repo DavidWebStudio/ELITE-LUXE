@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover elevated fashion, fragrances and beauty essentials at ELITE LUXE.">
+  <title>ELITE LUXE | Fashion, Beauty & Lifestyle</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/home.css">
+  <script src="js/home.js" defer></script>
+</head>
+<body>
+
+<div class="announcement">
+  THE ART OF EVERYDAY LUXURY — DISCOVER THE ELITE COLLECTION
+</div>
+
+<header class="site-header" id="top">
+  <a class="brand" href="home.html" aria-label="ELITE LUXE home">
+    <span class="brand-name">ELITE <b>LUXE</b></span>
+    <span class="brand-tagline">FASHION · BEAUTY · LIFESTYLE</span>
+  </a>
+
+  <button class="menu-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="main-navigation">
+    <span></span><span></span>
+  </button>
+
+  <nav class="main-nav" id="main-navigation" aria-label="Main navigation">
+    <a class="active" href="home.html">Home</a>
+    <a  href="about.html">Our Story</a>
+    <div class="nav-dropdown">
+      <button class="nav-dropdown-toggle " type="button" aria-expanded="false" aria-haspopup="true">
+        Shop <span class="dropdown-chevron" aria-hidden="true">⌄</span>
+      </button>
+      <div class="nav-dropdown-menu">
+        <a href="shop.html">Shop All</a>
+        <a href="shop.html?category=clothing#products">Clothing</a>
+        <a href="shop.html?category=bags#products">Bags</a>
+        <a href="shop.html?category=shoes#products">Shoes</a>
+        <a href="shop.html?category=fragrances#products">Fragrances</a>
+        <a href="shop.html?category=beauty#products">Beauty</a>
+      </div>
+    </div>
+    <a  href="shop.html#new-arrivals">New Arrivals</a>
+  </nav>
+
+  <div class="header-actions">
+    <form class="site-search" role="search" action="shop.html" method="get">
+      <label class="visually-hidden" for="site-search-input">Search products</label>
+      <input id="site-search-input" type="search" name="q" placeholder="Search products..." autocomplete="off">
+      <button type="submit" aria-label="Search">⌕</button>
+    </form>
+    <a class="cart-link" href="shop.html#products" aria-label="Shopping bag">BAG <span class="cart-count">0</span></a>
+  </div>
+</header>
+
+<main>
+
+<section class="hero">
+  <div class="hero-image"></div>
+  <div class="hero-overlay"></div>
+
+  <div class="hero-content reveal">
+    <p class="eyebrow">THE NEW STANDARD OF STYLE</p>
+    <h1>Make a statement.<br><em>Leave an impression.</em></h1>
+    <p class="hero-description">
+      Curated fashion, captivating fragrances and beauty essentials
+      for every version of you.
+    </p>
+
+    <div class="hero-buttons">
+      <a href="shop.html" class="button button-gold">Explore the collection ↗</a>
+      <a href="about.html" class="text-link">Discover ELITE LUXE →</a>
+    </div>
+  </div>
+
+  <div class="hero-bottom">
+    <span>01 / 03</span>
+    <span>CONFIDENCE IS THE BEST ACCESSORY.</span>
+    <span>SCROLL TO EXPLORE ↓</span>
+  </div>
+</section>
+
+<section class="intro section-wrap reveal">
+  <p class="eyebrow dark-eyebrow">A WORLD OF ELEVATED ESSENTIALS</p>
+  <h2>More than style.<br><em>It's a feeling.</em></h2>
+  <p>
+    From the pieces you wear to the scents you leave behind,
+    discover details that make every day feel extraordinary.
+  </p>
+</section>
+
+<section class="categories section-wrap">
+  <div class="section-heading reveal">
+    <div>
+      <p class="eyebrow dark-eyebrow">FIND YOUR SIGNATURE</p>
+      <h2>Shop by <em>category</em></h2>
+    </div>
+    <a class="underlined-link" href="shop.html">View everything ↗</a>
+  </div>
+
+  <div class="category-grid">
+
+    <a class="category-card reveal" href="shop.html?category=clothing#products">
+      <img src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=900&q=85" alt="Fashion clothing">
+      <span class="category-number">01</span>
+      <span class="category-info"><span>Clothing</span><b>Explore collection ↗</b></span>
+    </a>
+
+    <a class="category-card reveal" href="shop.html?category=bags#products">
+      <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=900&q=85" alt="Luxury handbag">
+      <span class="category-number">02</span>
+      <span class="category-info"><span>Bags & Accessories</span><b>Explore collection ↗</b></span>
+    </a>
+
+    <a class="category-card reveal" href="shop.html?category=shoes#products">
+      <img src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=900&q=85" alt="Shoes">
+      <span class="category-number">03</span>
+      <span class="category-info"><span>Shoes</span><b>Explore collection ↗</b></span>
+    </a>
+
+    <a class="category-card reveal" href="shop.html?category=fragrances#products">
+      <img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=900&q=85" alt="Perfume">
+      <span class="category-number">04</span>
+      <span class="category-info"><span>Fragrances</span><b>Explore collection ↗</b></span>
+    </a>
+
+    <a class="category-card reveal" href="shop.html?category=beauty#products">
+      <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=900&q=85" alt="Beauty products">
+      <span class="category-number">05</span>
+      <span class="category-info"><span>Beauty</span><b>Explore collection ↗</b></span>
+    </a>
+
+  </div>
+</section>
+
+<section class="editorial">
+  <div class="editorial-image reveal">
+    <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1400&q=85" alt="Fashion editorial">
+  </div>
+
+  <div class="editorial-copy reveal">
+    <p class="eyebrow">THE ELITE EDIT</p>
+    <h2>Style that speaks<br><em>without saying a word.</em></h2>
+    <p>
+      Thoughtfully selected pieces. Beautiful details.
+      A little luxury in everything you do.
+    </p>
+    <a class="button button-outline" href="shop.html">Discover your style ↗</a>
+  </div>
+</section>
+
+<section class="benefits section-wrap">
+  <div class="benefit reveal">
+    <span>✧</span>
+    <h3>Curated with care</h3>
+    <p>Considered pieces chosen to elevate your everyday.</p>
+  </div>
+  <div class="benefit reveal">
+    <span>◇</span>
+    <h3>Style without limits</h3>
+    <p>Fashion and beauty for every mood and moment.</p>
+  </div>
+  <div class="benefit reveal">
+    <span>↗</span>
+    <h3>A seamless experience</h3>
+    <p>Easy ordering and friendly customer support.</p>
+  </div>
+</section>
+
+<section class="newsletter">
+  <p class="eyebrow">A LITTLE SOMETHING EXTRA</p>
+  <h2>Stay in the <em>know.</em></h2>
+  <p>Be first to discover new arrivals and special offers.</p>
+
+  <form id="newsletter-form" class="newsletter-form">
+    <input type="email" placeholder="Enter your email address" required>
+    <button type="submit">SIGN ME UP ↗</button>
+  </form>
+  <p id="newsletter-message"></p>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-main">
+    <div class="footer-brand">
+      <a class="brand" href="home.html">
+        <span class="brand-name">ELITE <b>LUXE</b></span>
+        <span class="brand-tagline">FASHION · BEAUTY · LIFESTYLE</span>
+      </a>
+      <p>Elevate your everyday. Express your individuality. Live a little more luxuriously.</p>
+    </div>
+
+    <div class="footer-column">
+      <h3>Explore</h3>
+      <a href="home.html">Home</a>
+      <a href="about.html">Our story</a>
+      <a href="shop.html">Shop all</a>
+    </div>
+
+    <div class="footer-column">
+      <h3>Collections</h3>
+      <a href="shop.html?category=clothing#products">Clothing</a>
+      <a href="shop.html?category=bags#products">Bags</a>
+      <a href="shop.html?category=fragrances#products">Fragrances</a>
+      <a href="shop.html?category=beauty#products">Beauty</a>
+    </div>
+
+    <div class="footer-column">
+      <h3>Contact</h3>
+      <a href="mailto:hello@eliteluxe.com">Email us</a>
+      <a href="#">Instagram</a>
+      <a href="#">WhatsApp</a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <span>© <span id="year"></span> ELITE LUXE. ALL RIGHTS RESERVED.</span>
+    <a href="#top">BACK TO TOP ↑</a>
+  </div>
+</footer>
+
+</body>
+</html>
